@@ -31,8 +31,8 @@ int main(void)
 		printf("%d and is less than 6 and not 0\n", lastDigit);
 	}
 	else
-        {
-	       	printf("%d and is zero\n", lastDigit);
+	{
+		printf("%d and is 0\n", lastDigit);
 	}
 	return (0);
 }
