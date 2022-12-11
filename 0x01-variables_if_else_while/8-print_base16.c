@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - prints all the digit of 
+*main - prints all the digit of
 *the radix 16 number system
 *
 *Return: 0 (success)
