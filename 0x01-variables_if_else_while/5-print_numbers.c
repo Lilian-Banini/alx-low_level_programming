@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*mian - Prints all digits with radix 10
+*main - Prints all digits with radix 10
 *
 *Return: 0 (success)
 */
@@ -9,7 +9,7 @@ int main(void)
 
 	while (digits < 10)
 	{
-		printf("%d",digits);
+		printf("%d", digits);
 		digits++;
 	}
 	putchar('\n');
