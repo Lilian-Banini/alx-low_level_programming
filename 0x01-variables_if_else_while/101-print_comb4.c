@@ -18,16 +18,13 @@ int main(void)
 			{
 				if (firstDigit < secondDigit && secondDigit < thirdDigit)
 				{
-					/*if (secondDigit < thirdDigit)*/
+					putchar(firstDigit + '0');
+					putchar(secondDigit + '0');
+					putchar(thirdDigit + '0');
+					if (firstDigit != 7 || secondDigit != 8 || thirdDigit != 9)
 					{
-						putchar(firstDigit + '0');
-						putchar(secondDigit + '0');
-						putchar(thirdDigit + '0');
-						if (firstDigit != 7 || secondDigit != 8 || thirdDigit != 9)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
