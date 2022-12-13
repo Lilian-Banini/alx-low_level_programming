@@ -10,22 +10,12 @@ int _islower(int c)
 {
 	int i;
 
-	int lower = 0;
-
 	for (i = 97; i <= 122; i++)
 	{
-		if (i = c)
+		if (i == c)
 		{	
-			lower++;
-			break;
+			return (1);
 		}
 	}
-	if (lower)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	return (0);
 }
