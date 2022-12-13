@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *_abs - returns absolute value
- of numbers
+ *_abs - returns absolute values
  *
  * @n: - number to be checked sign
  *
