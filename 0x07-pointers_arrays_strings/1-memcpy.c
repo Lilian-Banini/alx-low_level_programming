@@ -1,9 +1,9 @@
 /*
  * File: 1-memcpy.c
- * Auth: Brennan D Baraban
+ * Auth: Lilian
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _memcpy - Copies @n bytes from the memory area pointed
