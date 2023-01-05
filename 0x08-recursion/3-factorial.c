@@ -1,9 +1,9 @@
 /*
  * 3-factorial.c
- * Auth: Brennan D Baraban
+ * Auth: Lilian
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * factorial - Returns the factorial of a given number.
