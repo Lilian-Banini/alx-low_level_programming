@@ -2,7 +2,7 @@
  * File: 3-alloc_grid.c
  */
 
-#include <main.h>
+#include <"main.h">
 #include <stdlib.h>
 
 /**
