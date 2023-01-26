@@ -1,6 +1,6 @@
 /*
  * File: 2-add_node.c
- * Auth: Lilian 
+ * Auth: Lilian b
  */
 
 #include "lists.h"
