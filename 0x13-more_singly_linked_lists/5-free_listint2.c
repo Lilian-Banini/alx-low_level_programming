@@ -1,30 +1,21 @@
-/*
- * File: 5-free_listint2.c
- * Auth: Lilian 
- */
-
 #include "lists.h"
-
 /**
- * free_listint2 - Frees a listint_t list.
- * @head: A pointer to the address of the
- *        head of the listint_t list.
- *
- * Description: Sets the head to NULL.
+ * free_listint2 - free the linked list
+ * @head : pointer to list
+ * Return: void
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *tmp;
+listint_t *temp;
 
-	if (head == NULL)
-		return;
+if (head == NULL)
+return;
 
-	while (*head)
-	{
-		tmp = (*head)->next;
-		free(*head);
-		*head = tmp;
-	}
-
-	head = NULL;
+while (*head)
+{
+temp = *head;
+*head = (*head)->next;
+free(temp);
+}
+head = NULL;
 }
