@@ -1,1 +1,1 @@
-C is fan
+C is fun
