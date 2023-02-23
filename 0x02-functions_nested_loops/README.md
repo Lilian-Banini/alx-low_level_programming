@@ -1,1 +1,1 @@
-its aboyt time
+Detailed Readme coming up!
